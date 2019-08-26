@@ -22,18 +22,18 @@
 
                     <div class="form-group">
                         <label for="disabledTextInput">Destination account</label>
-                        <input type="text"  class="form-control" placeholder="Enter account" name="toAccount" [(ngModel)]="this.dataApi.selectedTransfer.toAccount">
+                        <input type="number"  class="form-control" placeholder="Enter account" name="toAccount" [(ngModel)]="this.dataApi.selectedTransfer.toAccount">
                     </div>
 
                     
                     <div class="form-group">
-                        <label for="disabledTextInput">date</label>
+                        <label for="disabledTextInput">Date</label>
                         <input type="date"  class="form-control" placeholder="Enter amount" name="sentAt" [(ngModel)]="this.dataApi.selectedTransfer.sentAt">
                     </div>
 
                     <div class="form-group">
                         <label for="disabledTextInput">Amount</label>
-                        <input type="text"  class="form-control" placeholder="Enter amount" name="amount" [(ngModel)]="this.dataApi.selectedTransfer.amount">
+                        <input type="number"  class="form-control" placeholder="Enter amount" name="amount" [(ngModel)]="this.dataApi.selectedTransfer.amount">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Transfer</button>
