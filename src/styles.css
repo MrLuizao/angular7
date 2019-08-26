@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+#login > div > div > div{
+    margin-top: 85px !important;
+}
+#login > div > div > div > div > div{
+    border: none !important;
+}
+body > app-root > app-navbar > nav{
+    color: black !important;
+}
+td,th{
+    max-width: 15px;
+    min-width: 15px;
+}
+img{
+    width: 100% !important;
+}
+.truncate-text{
+    word-break: break-word;
+}
+.small-text{
+    font-size: small;
+}
+
+.row-cell-text{
+    font-size: smaller;
+}
+
+.center-text{
+    text-align: center;
+
+}
+.justify-text{
+    text-align: justify;
+    margin-bottom: 1rem;
+
+}
+.header-space{
+    margin-top:5rem;
+}
+
+
+

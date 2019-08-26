@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2f5dac1a-8418-47e8-b38e-0737e249b03e/resourceGroups/volkswagen/providers/Microsoft.Web/sites/volkswgen-test",
+    "appService.deploySubpath": "dist\\volkswagen-test"
+}
