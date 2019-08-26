@@ -5,6 +5,12 @@
 #login > div > div > div > div > div{
     border: none !important;
 }
+#register > div > div > div > div > div{
+    border: none !important;
+}
+#register > div > div > div > div > div > div{
+    margin-top: 85px !important;
+}
 body > app-root > app-navbar > nav{
     color: black !important;
 }

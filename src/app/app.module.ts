@@ -19,7 +19,8 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { ChartsModule } from 'ng2-charts';
 import { Routes, RouterModule } from '@angular/router';
 
-import { AngularFirestore } from '@angular/fire/firestore'
+import { AngularFirestore } from '@angular/fire/firestore';
+import { RegisterComponent } from './components/users/register/register.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AngularFirestore } from '@angular/fire/firestore'
     TransfersComponent,
     ModalComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

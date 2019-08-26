@@ -4,10 +4,13 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/users/login/login.component';
 import { TransfersComponent } from './components/transfers/transfers.component';
 import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
+import { RegisterComponent } from './components/users/register/register.component';
 
 const routes: Routes = [
 
   { path: '', component: LoginComponent },
+  { path: 'user/register', component: RegisterComponent },
+  { path: 'user/login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'transfers', component: TransfersComponent },
   // { path: 'my-pie-chart', component: MyPieChartComponent}
