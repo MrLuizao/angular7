@@ -20,7 +20,8 @@ import { ChartsModule } from 'ng2-charts';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AngularFirestore } from '@angular/fire/firestore';
-import { RegisterComponent } from './components/users/register/register.component'
+import { RegisterComponent } from './components/users/register/register.component';
+import { ApisComponent } from './components/apis/apis.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegisterComponent } from './components/users/register/register.componen
     ModalComponent,
     NavbarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ApisComponent
   ],
   imports: [
     BrowserModule,

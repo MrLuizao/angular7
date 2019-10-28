@@ -5,6 +5,7 @@ import { LoginComponent } from './components/users/login/login.component';
 import { TransfersComponent } from './components/transfers/transfers.component';
 import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 import { RegisterComponent } from './components/users/register/register.component';
+import { ApisComponent } from './components/apis/apis.component';
 
 const routes: Routes = [
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'user/login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'transfers', component: TransfersComponent },
+  { path: 'apis', component: ApisComponent },
   // { path: 'my-pie-chart', component: MyPieChartComponent}
 
 ];
